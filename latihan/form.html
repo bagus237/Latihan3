@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Slabo+27px">    
+<link href="style.css" rel="stylesheet" type="text/css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<form>
+<body>
+    <div class="topnav">
+        <a href="./index.html">Home</a>
+        <a class="active" href="./form.html">Register</a>
+      </div>
+    <h1 id="awalan">Pendaftaran Member</h1>
+      <h1>Halo 2</h1>
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <p>
+                <label for="full-name">Full Name</label>
+                <input id="full-name" name="full-name" type="text" required>
+            </p>
+            <p>
+                <label for="password">Password</label>
+                <input id="password name="password type="password" required>
+            </p>
+            <p>
+            <label for="kota">Asal</label>
+            <input name="kotaasal" list="kotaAsal" required>
+            <datalist id="kotaAsal">
+                <select name="pilihanKotaAsal">
+                    <option value="Jakarta">Jakarta</option>
+                    <option value="Bandung">Bandung</option>
+                    <option value="Surabaya">Surabaya</option>
+                </select>
+            </datalist>
+        </p>
+        <p>
+        <P><label for="kota">Jenis Kelamin</label></P>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+        </p>
+        <p>
+            <P><label for="kota">Aset</label></P>
+            <input type="checkbox" id="property" name="property" value="property">
+            <label for="vehicle1"> Property</label><br>
+            <input type="checkbox" id="Saham" name="saham" value="saham">
+            <label for="vehicle2"> Saham</label><br>
+            <input type="checkbox" id="LM" name="LM" value="Logam Mulia">
+            <label for="vehicle3"> Logam Mulia</label><br>
+        </p>
+        <button><a href="./welcome.html">Register</a></button>
+        <button>
+            <a href="./index.html">Back</a>
+        </button>
+        
+        </fieldset>
+        
+    </form>
+    <div class="footer">
+        <p>Footer</p>
+    </div>
+    
+</body>
+</html>
