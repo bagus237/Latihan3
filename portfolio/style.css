@@ -17,6 +17,7 @@ div.intro {
     align-items: center;
     justify-content: center; 
     background-color:gainsboro;
+    margin-bottom: 30px;
 }
 
 /*h1 {
@@ -51,7 +52,7 @@ div.intro {
 }
 
 .topnav a.active {
-  background-color: rgb(45, 253, 125);
+  background-color: rgb(18, 161, 73);
   color: white;
 }
 .topnav img {
@@ -102,6 +103,16 @@ div.intro {
         padding: 15px;
     }
 
+    .data {
+      margin: 0;
+      font-family: sans-serif;
+      margin-bottom: 30px;
+      margin-top: -30px;
+  }
+  .data tr{
+    margin-bottom: 30px;
+  }
+
     .footer {
       position: fixed;
       left: 0;
@@ -110,4 +121,5 @@ div.intro {
       background-color: black;
       color: white;
       text-align: center;
+      
     }
