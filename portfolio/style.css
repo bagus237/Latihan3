@@ -13,11 +13,10 @@ body {
 }
 
 div.intro {
-    display: flexbox;
-    align-items: center;
-    justify-content: center; 
-    background-color:gainsboro;
-    margin-bottom: 30px;
+  display: flexbox;
+  align-items: center;
+  justify-content: center; 
+  background-color:gainsboro;
 }
 
 /*h1 {

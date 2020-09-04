@@ -1,94 +1,47 @@
-
 <!DOCTYPE html>
-<html>
-    <!DOCTYPE html>
-<html>
-    <link href="style.css" rel="stylesheet" type="text/css">
+<html lang="en">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <meta charset="UTF-8">
+    <title>Welcome To My Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
+    <div class="topnav">
+        <img src="./berita logo.png">
+      <a  href="./index.html">Home</a>
+      <a href="./form.html">Register</a>
+      <a class="active" href="./artikel.html">Blog</a>
+      <a href="./galeri.html">Galeri</a>
+    </div>
+    
+    <script>
+        function flipToBack() {
+            document.getElementById("mainContent").style.display = "none";
+            document.getElementById("backContent").style.display = "block";
+        }
+        function flipToFront() {
+            document.getElementById("backContent").style.display = "none";
+            document.getElementById("mainContent").style.display = "block";
+        }
+    </script>
 </head>
 <body>
-
-<div class="topnav">
-    <img src="./berita logo.png">
-  <a class="active" href="#home">Home</a>
-  <a href="./form.html">Register</a>
-</div>
-
-    <head>
-        <title>Protofolio Saya</title>
-        <body>
-                  <DIV class="data">
-                  <center> 
-                    <!-- <h1>Nih Kira kira desainnya gini. <br>Tinggal d rapiin aja sesuai dengan kebutuhan</h1> -->
-                    <br><br><br><br>
-                        <table>
-                            <tr>
-                                <td rowspan="6">
-                                    <img src="./sasuke.jpg" width="200" />
-                                </td>
-                            </tr>
-                            <tr>
-                                <td rowspan="3"><font size="6"><b>Muhamad Bagus Kurniawan</b></font>
-                                <br><br>IT Officer At BRIAPI
-                                </td>
-                                <td width="300"></td>
-                                <td width="100"><b>Availibility</b></td>
-                                <td width="10">:</td>
-                                <td>Full Time</td>
-                            </tr>
-                            
-                            <tr>
-                                <td></td>
-                                <td><b>Usia</b></td>
-                                <td>:</td>
-                                <td>23</td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                                <td><b>Lokasi</b></td>
-                                <td>:</td>
-                                <td>Tangerang, Indonesia</td>
-                            </tr>
-                            <tr>
-                                <td rowspan="2" colspan="1">
-                                <input type="button" value="My Linkedin" onclick="window.location.href='https://www.linkedin.com/in/bagus97/p'" />&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" value="My Github" onclick="window.location.href='https://www.linkedin.com/in/bagus97/p'" />
-                                </td>
-                                <td></td>
-                                <td><b>Pengalaman</b></td>
-                                <td>:</td>
-                                <td>2 Tahun</td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                                <td><b>Email</b></td>
-                                <td>:</td>
-                                <td>bagus237@gmail.com</td>
-                            </tr>
-                        </table>
-                    </DIV>
-            </fieldset>
-                 
-            <div class="biodata">
-            <fieldset>
-                <legend>Personal Information</legend>
-                <p>
-                    <h4 style="text-align: center;">Ringkasan</h4>
-                    Saya suka mencari alternative solusi dari berbagai permasalahan
-                    yang ada serta bersikap terbuka dengan masukan orang lain, untuk
-                    dijadikan bahan introspeksi diri agar menjadi individu yang lebih
-                    baik.
-                </p>
-                <p>
-                    <h4 style="text-align: center;">Pendidikan</h4>
-                    <b>Universitas Budi Luhur</b><br>
-                    Bachelor's Degree, Sistem Informasi · (2015 - 2019)
-                </p>
-
+    <div id="mainContainer">
+        <div id="mainContentBlock">
+            <div id="mainContent">
                 
-            </fieldset>
+                <div id="avatarImageBlock" style="background-image: url('images/avatar.jpg');">
+                </div>
+                
+                <div id="frontContentBox">
+                    <div id="nameIntroBox">
+                        <h1>Welcome To My Website</h1>
+                        <h2>Jangan Lupa Feedbacknya :)</h2>
+                    </div>
+                </div>
+            </div>
         </div>
-        </form>
-    </form>
+    </div>
+</body>
 </html>
